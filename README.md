@@ -1,17 +1,13 @@
-# pcileech-wifi
-pcileech-fpga with wireless card emulation
+💡 哲学家模式
+"当FPGA开始撒谎，连设备管理器都开始怀疑人生..."
 
-# wifi adapter, but not really
-![screenshot](https://i.imgur.com/Ri9IEXb.png)
+🚧 免责声明
+本项目的正确打开方式：
 
-# Usage
-This firmware was created for researching purposes only.  
+在你自己买的设备上
 
-# Original project by Ulf Frisk
-Original project can be found from https://github.com/ufrisk/pcileech-fpga/  
-I decided to make separate repository, because my version disables some original features e.g. shadow config space.
+用你自己掉的头发
 
-# Anti-Cheats
-This project was created to test current top Anti-Cheats against FPGA approach with minimal effort / knowledge.  
-FACEIT/Vanguard both tested, and Vanguard did take the win on this.  
-Project temporary did get through VGK Entry Level detection, but just 8 days and it was fixed. Good job again.
+为你自己的行为负责
+
+（小声说：其实我们更期待有人用它来加强反作弊系统✨）
