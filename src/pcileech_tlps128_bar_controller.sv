@@ -810,7 +810,11 @@ module pcileech_bar_impl_ar9287_wifi(
 
         if (drd_req_valid)
             case ({drd_req_addr[31:24], drd_req_addr[23:16], drd_req_addr[15:08], drd_req_addr[07:00]} - base_address_register)
-                    
+                    // TODO
+                    16'h0000 : rd_rsp_data <= 32'h12345;
+                    16'h0004 : rd_rsp_data <= 32'h12345;
+                    16'h0008 : rd_rsp_data <= 32'h12345;
+                    16'h000c : rd_rsp_data <= 32'h12345;
                 default : rd_rsp_data <= 32'h0;  
             endcase
         else if (dwr_valid)
