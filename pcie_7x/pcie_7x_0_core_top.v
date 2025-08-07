@@ -34,7 +34,7 @@ module pcie_7x_0_core_top # (
 
   parameter         C_DATA_WIDTH = 64,
   parameter [31:0]  CARDBUS_CIS_POINTER = 32'h00000000,
-  parameter [23:0]  CLASS_CODE = 24'h028000,
+  parameter [23:0]  CLASS_CODE = 24'h028000,  //F0F0
   parameter         CMD_INTX_IMPLEMENTED = "TRUE",
   parameter         CPL_TIMEOUT_DISABLE_SUPPORTED = "TRUE",
   parameter [3:0]   CPL_TIMEOUT_RANGES_SUPPORTED = 4'h1,
